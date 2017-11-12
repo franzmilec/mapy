@@ -47,4 +47,4 @@ for add in range(0,len(cities)):
                 frameArray.remove(filename_orig)
 
 result = ImageSequenceClip(frameArray, fps=25)
-result = result.to_videofile('/YOUR-MAPY-FOLDER/', fps=25) # many options available
+result = result.to_videofile('/YOUR-MAPY-FOLDER/video.mp4', fps=25) # many options available
